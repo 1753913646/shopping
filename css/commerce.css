@@ -1,0 +1,234 @@
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    margin: 25px auto;
+    height: 61px;
+}
+
+.com_logo a {
+    float: left;
+    background: url(../images/logo.png) no-repeat;
+    font-size: 0px;
+    width: 177px;
+    height: 61px;
+}
+
+.com_logo span {
+    float: left;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 15px;
+    line-height: 61px;
+}
+
+.header .searchs {
+    width: 338px;
+    height: 36px;
+    float: right;
+    border: 2px #b1191a solid;
+}
+
+.searchs input[type="search"] {
+    float: left;
+    width: 254px;
+    line-height: 32px;
+    padding-left: 10px;
+}
+
+.searchs button {
+    float: right;
+    width: 80px;
+    height: 32px;
+    background-color: #b1191a;
+    color: white;
+    font-size: 16px;
+}
+
+.trade {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.informatiom {
+    border: 1px solid #ccc;
+}
+
+.infor_detail {
+    margin: 0px 40px;
+}
+
+.infor_detail dl {
+    border-bottom: 1px solid #ccc;
+}
+
+.infor_private dt {
+    margin: 45px 0 15px 0;
+}
+
+.infor_detail .collect {
+    width: 145px;
+    height: 30px;
+    font-size: 12px;
+    line-height: 30px;
+    text-align: center;
+    border: 2px solid red;
+}
+
+.infor_detail dl dd {
+    display: inline-block;
+    height: 35px;
+    line-height: 35px;
+    margin-left: 20px;
+}
+
+.infor_detail dl .col_more {
+    margin: 0;
+    display: block;
+}
+
+.infor_detail dl .col_more::after {
+    content: '\e91e';
+    font-family: 'icomoon';
+}
+
+.infor_detail .infor_address {
+    margin-top: 0px;
+    height: 60px;
+    line-height: 60px;
+}
+
+.infor_pay {
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+.infor_pay dt {
+    margin-bottom: 10px;
+}
+
+.infor_pay dd:nth-child(-n+4) {
+    display: inline-block;
+    border: 1px solid #ccc;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 15px;
+}
+
+.infor_pay dd:nth-child(-n+4):hover {
+    border: 1px solid red;
+    color: #b1191a;
+}
+
+.pay_more a::after {
+    content: '\e920';
+    font-family: "icomoon";
+    font-size: 16px;
+    padding-top: 1px;
+}
+
+.infor_deliver,
+.infor_goods {
+    padding: 20px 0px;
+    background-color: #f4f4f4;
+}
+
+.deliver,
+.goods {
+    margin-bottom: 10px;
+}
+
+.infor_goods {
+    background-color: #feedef;
+}
+
+.infor_goods .phone img {
+    width: 82px;
+    height: 82px;
+    background-color: white;
+    margin-right: 62px;
+}
+
+.infor_goods .refund {
+    display: block;
+    margin-left: 188px;
+    color: #b1191a;
+}
+
+.infor_bill {
+    padding: 15px 0;
+}
+
+
+.infor_bill dd:last-child {
+    display: block;
+    margin: 0;
+    font-size: 14px;
+}
+
+.infor_bill dd:last-child::after {
+    content: '\e91e';
+    font-family: "icomoon";
+}
+
+.infor_bill a {
+    color: blue;
+}
+
+.infor_total dd:nth-child(2),
+.infor_total dd:nth-child(3) {
+    display: block;
+}
+
+.infor_total {
+    text-align: right;
+}
+
+.infor_total em {
+    display: inline-block;
+    width: 70px;
+    text-align: right;
+}
+
+.weight {
+    font-weight: 700;
+    font-size: 14px;
+    color: red;
+}
+
+.infor_shopping {
+    background-color: #f4f4f4;
+    text-align: right;
+}
+
+.infor_shopping dd:nth-child(2) {
+    display: block;
+}
+
+.infor_submit{
+    position: relative;
+    display: inline-block;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    margin: 20px;
+}
+
+.infor_detail .infor_submit dd{
+    position: absolute;
+    left: 948px;
+    width: 130px;
+    background-color:#df3033;
+}
+
+.infor_submit a{
+    color: white;
+}
+
+.infor_detail dl{
+    border-bottom: 0;
+}

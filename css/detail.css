@@ -1,0 +1,546 @@
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+/* 面包屑导航 */
+.crumb_wrap {
+    font-size: 12px;
+    height: 35px;
+    line-height: 35px;
+    margin-top: 15px;
+}
+
+/* 产品介绍模块 */
+.product_intro {
+    height: 560px;
+    /* background-color: skyblue; */
+}
+
+/* 预览区域 start */
+.preview_wrap {
+    width: 400px;
+}
+
+.preview_wrap>img {
+    border: 1px solid #ccc;
+}
+
+.preview_list {
+    width: 400px;
+    height: 57px;
+}
+
+.preview_list ul li {
+    float: left;
+}
+
+.preview_list ul li img {
+    width: 55px;
+    height: 55px;
+}
+
+.preview_list ul li a {
+    display: inline-block;
+}
+
+.preview_list ul li a:hover {
+    border: 1px solid red;
+    opacity: .7;
+}
+
+.preview_list ul li:first-child::before {
+    content: '\e91f';
+    font-family: 'icomoon';
+    font-size: 25px;
+    line-height: 55px;
+}
+
+.preview_list ul li:last-child::after {
+    content: '\e920';
+    font-family: 'icomoon';
+    font-size: 25px;
+    line-height: 55px;
+}
+
+.preview_list ul li:hover:first-child::before,
+.preview_list ul li:hover:last-child::after {
+    color: red;
+}
+
+.preview_inform {
+    margin-top: 40px;
+}
+
+.preview_inform ul li {
+    float: left;
+    margin: 0 15px;
+}
+
+.preview_inform ul li:first-child {
+    margin-left: 0;
+}
+
+.preview_inform ul .share::before {
+    content: '\e929';
+    font-family: 'icomoon';
+    font-size: 12px;
+    color: red;
+}
+
+.preview_inform ul .care::before {
+    content: '\e927';
+    font-family: 'icomoon';
+    font-size: 12px;
+    color: red;
+}
+
+/* 预览区域 end */
+
+/* 产品详情信息 */
+.iteminfo_wrap {
+    width: 718px;
+    height: 500px;
+}
+
+.sku_name h3 {
+    font-size: 16px;
+}
+
+.news p {
+    font-size: 14px;
+    color: #e12228;
+    padding: 15px 0;
+}
+
+.summary dt,
+.summary dt dd {
+    float: left;
+}
+
+.summary dl dt {
+    width: 70px;
+    height: 36px;
+    line-height: 36px;
+    padding: 1px 10px;
+    font-size: 12px;
+}
+
+.summary dd {
+    line-height: 36px;
+}
+
+.summary_price i {
+    font-size: 24px;
+    color: #e12228;
+}
+
+.summary_price a {
+    color: #e12228;
+    margin-left: 5px;
+}
+
+.summary_price .remark {
+    float: right;
+    margin-right: 15px;
+}
+
+.summary_price {
+    background-color: #fee9eb;
+}
+
+.summary_promotion {
+    height: 82px;
+    background-color: #fee9eb;
+}
+
+.summary_promotion em {
+    width: 42px;
+    height: 22px;
+    color: white;
+    padding: 3px 5px;
+    background-color: #e12228;
+}
+
+.summary_promotion dd {
+    display: inline-block;
+    width: 450px;
+    height: 36px;
+    line-height: 36px;
+}
+
+/* .summary dd .style_border {
+    border: 1px solid #e12228;
+} */
+
+.choose_color,
+.choose_version,
+.choose_style,
+.choose_capacity,
+.choose_suit {
+    margin-top: 7px;
+}
+
+.choose_color dd a,
+.choose_version dd a,
+.choose_style dd a,
+.choose_capacity dd a,
+.choose_suit dd a {
+    display: inline-block;
+    padding: 0 13px;
+    height: 36px;
+    line-height: 36px;
+    margin-right: 5px;
+    text-align: center;
+    background-color: #f7f7f7;
+    border: 1px solid #ededed;
+}
+
+.summary a:hover {
+    border: 1px solid #e12228;
+}
+
+.choose_btns {
+    margin: 15px 0 0 70px;
+}
+
+.choose_amount {
+    position: relative;
+    float: left;
+    width: 52px;
+    height: 46px;
+}
+
+/* .choose_amount input[type="number"] {
+    display: inline-block;
+    width: 45px;
+    line-height: 46px;
+    text-align: center;
+    border: 1px solid #ccc;
+} */
+
+.choose_amount input[type="text"] {
+    width: 35px;
+    height: 46px;
+    line-height: 46px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+.choose_amount a {
+    display: inline-block;
+    width: 15px;
+    height: 23px;
+    line-height: 23px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+.choose_amount a {
+    border-left: 0px;
+}
+
+.choose_amount .add {
+    position: absolute;
+}
+
+.choose_amount .reduce {
+    position: absolute;
+    top: 23px;
+}
+
+.shopping {
+    display: inline-block;
+    width: 142px;
+    height: 46px;
+    color: white;
+    text-align: center;
+    line-height: 46px;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: #e12228;
+    margin-left: 10px;
+    border: 0px solid transparent;
+}
+
+.choose_btns .shopping:hover {
+    color: white;
+    border: 0px;
+}
+
+/* 产品细节介绍 */
+.product_details .aside {
+    width: 208px;
+    border: 1px solid #ccc;
+}
+
+.tab_list ul li {
+    float: left;
+}
+
+.tab_list ul li a {
+    display: inline-block;
+    width: 103px;
+    height: 33px;
+    line-height: 33px;
+    text-align: center;
+}
+
+.tab_list ul li:nth-child(2) {
+    background-color: #f1f1f1;
+}
+
+.tab_nav ul li {
+    float: left;
+}
+
+.tab_nav ul li a {
+    display: inline-block;
+    width: 73px;
+    height: 33px;
+    line-height: 33px;
+    margin: 0px 15px;
+    border-bottom: 1px solid #ccc;
+}
+
+.tab_nav a {
+    display: inline-block;
+    width: 176px;
+    height: 33px;
+    line-height: 33px;
+    margin: 0px 15px;
+    border-bottom: 1px solid #ccc;
+}
+
+.tab_con {
+    margin: 0 10px;
+    font-size: 14px;
+}
+
+.tab_con img {
+    width: 190px;
+    height: 137px;
+}
+
+.tab_con h5 {
+    /* 单行文字省略 */
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.price em {
+    color: #e12228;
+    font-weight: 700;
+}
+
+.tab_con ul li {
+    border-bottom: 1px solid #ccc;
+}
+
+.tab_con ul li:last-child {
+    border: 0;
+}
+
+.tab_con ul li .join {
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 10px;
+    margin: 10px 47px;
+    font-size: 14px;
+    color: #6b6b6b;
+    background-color: #f7f7f7;
+    border: 1px solid #ccc;
+}
+
+.tab_con ul li a:hover {
+    background-color: #e12228;
+    color: white;
+}
+
+
+.detail {
+    width: 980px;
+}
+
+/* 右边 */
+.detail_choose {
+    height: 300px;
+    border: 1px solid #ccc;
+}
+
+.accessory {
+    height: 40px;
+    line-height: 40px;
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+}
+
+.accessory p {
+    display: inline-block;
+    width: 85px;
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+    background-color: #c81623;
+}
+
+.detail_accessory_nav {
+    height: 40px;
+}
+
+.detail_accessory_nav ul li {
+    float: left;
+    line-height: 40px;
+}
+
+.detail_accessory_nav ul li a {
+    display: inline-block;
+    padding: 0 22px;
+}
+
+.detail_goods ul li {
+    float: left;
+    width: 160px;
+    height: 219px;
+    padding: 15px;
+}
+
+.detail_goods ul img:hover:nth-child(-n+5) {
+    border: 1px solid #e12228;
+}
+
+.detail_goods ul li img {
+    width: 132px;
+    height: 132px;
+}
+
+.detail_goods .title {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin-bottom: 10px;
+}
+
+.detail_goods em {
+    font-size: 18px;
+    color: #c81623;
+}
+
+.detail_goods ul li {
+    position: relative;
+}
+
+.detail_goods ul li:nth-child(5)::after {
+    position: absolute;
+    content: '\e920';
+    font-family: 'icomoon';
+    font-size: 28px;
+    width: 22px;
+    height: 49px;
+    line-height: 49px;
+    top: 65px;
+    right: 0;
+    background-color: #f3f4f4;
+}
+
+.goods_5 {
+    border-right: 1px solid #ccc;
+}
+
+.goods_6 i {
+    color: #e12228;
+}
+
+.goods_6 p {
+    font-size: 16px;
+}
+
+.goods_6 .total {
+    margin-top: 15px;
+    font-weight: 700;
+}
+
+.goods_6 em {
+    display: inline-block;
+    padding-top: 10px;
+    font-size: 18px;
+    color: #c81623;
+}
+
+.goods_6 a {
+    display: inline-block;
+    width: 142px;
+    height: 45px;
+    line-height: 45px;
+    font-size: 18px;
+    text-align: center;
+    background-color: #c81623;
+    color: #f1f1f1;
+    margin-top: 30px;
+}
+
+.detail_tab_list {
+    height: 430px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+}
+
+.detali_list_nav {
+    height: 40px;
+    line-height: 40px;
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+}
+
+.detali_list_nav a {
+    display: inline-block;
+    padding: 0 15px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.detali_list_nav .nav_goods {
+    background-color: #c81623;
+    color: white;
+}
+
+.detail_parameter {
+    position: relative;
+    margin: 15px 0 0 15px;
+}
+
+.detail_parameter dt {
+    width: 80px;
+    padding: 3px 0;
+    text-align: right;
+    float: left;
+}
+
+.detail_parameter dd {
+    padding: 3px 0;
+}
+
+.detail_parameter a {
+    position: absolute;
+    bottom: -20px;
+    right: 30px;
+}
+
+.detail_parameter a::after {
+    content: '\e91e';
+    font-family: 'icomoon';
+    font-size: 16px;
+    padding-left: 3px;
+    position: absolute;
+    top: -1px;
+}
+
+.footer{
+    margin-top: 30px;
+}

@@ -1,0 +1,125 @@
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    margin-top: 25px;
+}
+
+section {
+    position: relative;
+    background: url(../images/loginbg.png);
+    height: 486px;
+}
+
+.main {
+    position: absolute;
+    height: 365px;
+    width: 380px;
+    background-color: #ffffff;
+    top: 60px;
+    right: 160px;
+    padding: 15px 38px 0;
+}
+
+.login_way a {
+    display: inline-block;
+    width: 150px;
+    height: 35px;
+    font-size: 18px;
+    line-height: 35px;
+    text-align: center;
+}
+
+.warn {
+    background-color: #fffdee;
+    width: 300px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border: 1px solid #f0eabd;
+    margin-top: 8px;
+}
+
+.login_infor {
+    position: relative;
+}
+
+.login_infor input[type="text"],
+.login_infor input[type="password"] {
+    display: inline-block;
+    width: 300px;
+    height: 35px;
+    margin-top: 18px;
+    padding-left: 10px;
+    border: 1px solid #ccc;
+}
+
+.login_infor input[type="submit"],
+.login_infor input[type="reset"] {
+    display: inline-block;
+    width: 145px;
+    line-height: 40px;
+    margin-top: 18px;
+    color: white;
+    font-size: 16px;
+    background-color: #c81623;
+}
+
+.reset {
+    margin-left: 6px;
+}
+
+.auto_login {
+    margin-top: 15px;
+}
+
+.auto_login a {
+    float: right;
+    padding-right: 5px;
+}
+
+.register {
+    position: relative;
+    margin-top: 20px;
+}
+
+.register ul li {
+    float: left;
+    width: 35px;
+    height: 35px;
+    margin: 1px;
+}
+
+.register .qq,
+.register .wb,
+.register .zfb,
+.register .wx {
+    background: url(../images/regetype.png);
+}
+
+.register .qq {
+    background-position: -18px -6px;
+}
+
+.register .wb {
+    background-position: -70px -6px;
+}
+
+.register .zfb {
+    background-position: -123px -6px;
+}
+
+.register .wx {
+    background-position: -173px -6px;
+}
+
+.register a {
+    position: absolute;
+    float: right;
+    line-height: 35px;
+    vertical-align: bottom;
+    color: rgb(121, 121, 238);
+    right: 10px;
+}

@@ -1,0 +1,150 @@
+.w {
+    width: 1200px;
+    margin: 0 auto;
+    /* background-color: skyblue; */
+}
+
+.header {
+    height: 84px;
+    border-bottom: 2px solid #c81523;
+    padding-top: 15px;
+}
+
+.registerarea {
+    height: 500px;
+    margin-top: 25px;
+    border: 1px solid #ccc;
+    /* background-color: skyblue; */
+}
+
+.registerarea h3 {
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #ececec;
+    height: 45px;
+    line-height: 45px;
+    border-bottom: 1px solid #ccc;
+    padding: 0 15px;
+}
+
+.login {
+    float: right;
+    font-size: 14px;
+}
+
+.registerarea a {
+    color: #c81523;
+}
+
+.reg_form {
+    width: 600px;
+    margin: 50px auto 0;
+}
+
+.reg_form ul li {
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.reg_form ul li label {
+    display: inline-block;
+    width: 88px;
+    text-align: right;
+    font-size: 14px;
+}
+
+.reg_form ul li .input {
+    width: 238px;
+    height: 36px;
+    border: 1px solid #ccc;
+    padding-left: 10px;
+}
+
+.reg_form ul li input::placeholder {
+    color: #b1b0b0;
+    font-size: 14px;
+}
+
+.reg_form ul li i{
+    margin-left: 10px;
+}
+
+.success_icon, 
+.error_icon{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    margin: -2px 5px 0 0;
+}
+
+.error_icon{
+    background: url(../images/error.png) no-repeat;
+}
+
+.success_icon{
+    background: url(../images/success.png) no-repeat;
+
+}
+
+.error{
+    color: #c81523;
+}
+
+.success{
+    color: green;
+}
+
+.safe{
+    margin-left: 139px;
+}
+
+.safe em{
+    display: inline-block;
+    padding: 0 12px;
+    color: white;
+} 
+
+.ruo{
+    background-color: #de1111;
+}
+.zhong {
+    background-color: #40b83f;
+}
+.qiang {
+    background-color: #f79100;
+}
+
+.agree{
+    margin-left: 93px;
+}
+
+.agree a{
+    color: #1ba1e6;;
+}
+
+.btn{
+    display: inline-block;
+    width: 238px;
+    height: 45px;
+    margin-left: 93px;
+    color: white;
+    font-size: 16px;
+    background-color: #c81623;
+}
+
+.mod_copyright {
+    text-align: center;
+}
+
+.mod_copyright a {
+    margin: 0 3px;
+}
+
+.mod_copyright {
+    padding-top: 20px;
+}
+
+.copyright {
+    padding: 17px 0 10px 0;
+}

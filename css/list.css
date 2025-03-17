@@ -1,0 +1,145 @@
+nav {
+    overflow: hidden;
+}
+
+.sk {
+    position: absolute;
+    border-left: 2px solid #c81523;
+    left: 190px;
+    top: 40px;
+    padding: 3px 0 0 14px;
+}
+
+.sk_list {
+    float: left;
+}
+
+.sk_list ul li {
+    float: left;
+}
+
+.sk_list ul li a {
+    display: block;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 47px;
+    color: #000;
+    padding: 0 30px;
+}
+
+.sk_list ul li a:hover {
+    color: #c81523;
+}
+
+.sk_com {
+    float: left;
+}
+
+.sk_com ul {
+    margin-left: 50px;
+}
+
+.sk_com ul li {
+    float: left;
+}
+
+.sk_com ul li a {
+    display: block;
+    font-size: 14px;
+    line-height: 49px;
+    padding: 0 15px;
+}
+
+.sk_com ul li:last-child a::after {
+    content: '\e91e';
+    font-family: 'icomoon';
+}
+
+.sk_hd {
+    margin-bottom: 15px;
+}
+
+.sk_bd ul li {
+    overflow: hidden;
+    float: left;
+    width: 290px;
+    height: 459px;
+    margin-right: 13px;
+    border: 1px solid transparent;
+}
+
+.sk_bd ul li:hover {
+    border: 1px solid #c81523;
+    opacity: 0.8;
+    transform: scale(1.005);
+    box-shadow: 2px 2px 10px rgb(181, 177, 177);
+}
+
+.sk_bd ul li:nth-child(4n) {
+    margin-right: 0;
+}
+
+.sk_bd ul li img {
+    width: 100%;
+}
+
+.sk_middle {
+    padding: 10px 15px;
+}
+
+.sk_phone .sk_middle h5 {
+    font-size: 12px;
+    color: #717171;
+}
+
+.new_price {
+    color: #fa1a35;
+}
+
+.new_price b {
+    font-size: 18px;
+    font-family: 700;
+    color: #fa1a35;
+}
+
+.old_price {
+    font-size: 12px;
+    color: #b8b7b7;
+}
+
+.buy {
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    width: 290px;
+    height: 55px;
+    background-color: #c81523;
+}
+
+.sk_bd .sk_phone .sk_middle div {
+    color: #666;
+}
+
+.residue{
+    line-height: 21px;
+}
+
+.residue .schedule {
+    display: inline-block;
+    position: relative;
+    width: 150px;
+    height: 10px;
+    padding: 1px;
+    border: 1px solid red;
+    border-radius: 5px;
+}
+
+.residue .schedule span{
+    position: absolute;
+    display: inline-block;
+    width: 85%;
+    background-color: #fa1a35;
+    height: 6px;
+    border-radius: 3px;
+}
